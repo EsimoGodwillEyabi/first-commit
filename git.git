@@ -1,0 +1,17 @@
+// initialise a git repository
+git init
+git add .. // add all the files in the working folder into the git repo 
+git add list.py // adding a specific file call list.py in the repo 
+git status // to know the status of the add files either commit, modify or staged 
+git commit -m "first commit" // ths commit what was at the staged state with the measage (first commit)
+git remote https://git.com/xxx/python-basics.git // creates a connection between a local repo and the github repo on Github 
+git branch -M main // this changes your git branch name to main, (its usually master)
+git push -u origin main // pushes your repo from local device to Github 
+git checkout -b test // (git checkout) tells git to switch to a new branch and (-b) tells git to create a new branch called (test)
+git merge test // this merges what ever has been done in the test branch with the main branch 
+git checkout test // switches to the test branch 
+git checkout main // switches to the manin branch 
+git clone YOUR_HTTPS_URL // pulls the remote repository (your https_url) to your local computer 
+// how to fork a repo
+-Install github CLI on your system 
+Fork the repository: gh repo for owner/repo
